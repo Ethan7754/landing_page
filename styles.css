@@ -48,6 +48,16 @@ ul {
   color: #E5E7EB;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title {
+  text-align: center;
+}
+
+
 
 
 
