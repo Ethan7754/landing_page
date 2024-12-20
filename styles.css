@@ -95,6 +95,7 @@ button {
   display: flex;
   justify-content: center;
   gap: 80px;
+  margin-bottom: 175px;
 }
 
 .card {
@@ -108,7 +109,6 @@ button {
   border-radius: 25px;
   width: 225px;
   height: 230px;
- 
 }
 
 .card-text {
@@ -118,4 +118,49 @@ button {
 
 .card-text p {
   margin-top: 10px;
+}
+
+.quote-section-container {
+  background-color: #E5E7EB;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  width: 50%;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+
+cite {
+  font-style: normal;
+  font-weight: 900;
+  align-self: flex-end;
+}
+
+.call-to-action-container {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action {
+  background-color: #3882F6;
+  border-radius: 25px;
+  height: 45%;
+  width: 90%;
+  color: #F9FAF8;
+  font-size: 36px;
+  
 }
