@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
+  font-family: Roboto;
 }
 
 body {
@@ -8,7 +9,6 @@ body {
 }
 
 header {
-  font-family: Roboto;
   background-color: #1F2937;
 }
 
@@ -163,4 +163,14 @@ cite {
   color: #F9FAF8;
   font-size: 36px;
   
+}
+
+footer {
+  font-size: 25px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
