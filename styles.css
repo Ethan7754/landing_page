@@ -9,6 +9,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   background-color: #1F2937;
 }
@@ -32,4 +37,46 @@ ul {
   list-style: none;
   color: #E5E7EB;
   font-size: 18px;
+}
+
+.hero-section-container {
+  display: flex;
+
+}
+
+.hero-left {
+  border: 1px solid white;
+  width: 50%;
+  padding-left: 432px;
+  margin-top: 100px;
+  margin-bottom: 130px;
+}
+
+.hero-left-title {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.hero-left-subtitle {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-left-button {
+  display: inline-block;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 8px;
+  margin-top: 10px;
+  height: 35px;
+  width: 125px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.hero-right {
+  border: 1px solid white;
+  width: 50%;
+
 }
