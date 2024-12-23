@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-
 }
 
 body {
@@ -41,11 +40,9 @@ ul {
 
 .hero-section-container {
   display: flex;
-
 }
 
 .hero-left {
-  border: 1px solid white;
   width: 50%;
   padding-left: 432px;
   margin-top: 100px;
@@ -76,7 +73,18 @@ ul {
 }
 
 .hero-right {
-  border: 1px solid white;
   width: 50%;
+  display: flex;
+  align-items: center;
+}
 
+.placeholder-box {
+  background-color: #71797E;
+  color: #E5E7EB;
+  height: 225px;
+  width: 500px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
