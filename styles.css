@@ -121,5 +121,32 @@ ul {
 
 .card-text {
   text-align: center;
-  font-size: 18px;
+  font-size: 22px;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-and-citation {
+  display: flex;
+  flex-direction: column;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 100;
+}
+
+cite {
+  align-self: flex-end;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  margin-right: 75px;
 }
