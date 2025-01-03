@@ -150,3 +150,54 @@ cite {
   font-size: 25px;
   margin-right: 75px;
 }
+
+.cta-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-container {
+  margin-top: 125px;
+  margin-bottom: 125px;
+  background-color: #3882F6;
+  width: 70%;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.cta-main-p {
+  font-size: 25px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.cta-secondary-p {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.cta-button {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: #F9FAF8;
+  background: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer {
+  height: 125px;
+  background-color: 
+}
